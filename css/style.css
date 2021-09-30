@@ -1,3 +1,4 @@
+/*Custom Properties*/
 :root{
     --primario: #9c27b0;
     --primarioOscuro: #89119d;
@@ -6,7 +7,48 @@
     --blanco: #fff;
     --negro: #000;
     --fuentePrincial: font-family: 'Staatliches', cursive;
+    --fuenteSecundaria: Arial, Helvetica, sans-serif;
 }
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*10px = 1rem*/
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+/*Estilos globales*/
 body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5; /*La base de la fuente*/
     font-family: var(--fuentePrincial);
+}
+p{
+    font-size: 1.8rem;
+    font-family: var(--fuenteSecundaria);
+    color: var(--blanco);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+h1, h2, h3{
+    text-align: center;
+    color: var(--secundario);
+    font-family: var(--fuentePrincial);
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.2rem;
+}
+h3{
+    font-size: 2.4rem;
+}
+.contenedor{
+    max-width: 120rem;/*1200px*/
+    margin: 0 auto;/*Centrar contenido*/
 }
