@@ -88,10 +88,9 @@ h3{
     background-color: var(--primarioOscuro);
     padding: 1rem 0;
     margin-top: 2rem;
-    text-align: center;
-    font-family: var(--fuentePrincial);
-    font-size: .2rem;
 }
 .footer__texto{
-
+    font-family: var(--fuentePrincial);
+    text-align: center;
+    font-size: 2.2rem;
 }
