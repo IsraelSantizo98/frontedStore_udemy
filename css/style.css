@@ -176,3 +176,22 @@ h3{
         grid-column: 2 / 3;
     }
 }
+.bloques{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.bloque{
+    text-align: center;
+}
+.bloque__imagen{
+    width: 100%;
+}
+.bloque__titulo{
+    margin: 0;
+}
+@media (min-width: 768px){
+    .bloques{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
